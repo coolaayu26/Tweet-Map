@@ -1,0 +1,17 @@
+{
+  "name": "addy-tweetmap",
+  "version": "1.0.0",
+  "description": "simple nodejs application that fetches tweets from twitter api and pushes them into aws elasticsearch domain",
+  "main": "TweetFetcher.js",
+  "dependencies": {
+    "twitter": "*",
+    "twit": ">=1.1",
+    "aws-sdk":"*",
+    "request": "*"
+    },
+  "scripts": {
+    "test": "node TweetFetcher.js"
+  },
+  "author": "Aditya Kaushal",
+  "license": "ISC"
+}
