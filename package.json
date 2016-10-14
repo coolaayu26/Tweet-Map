@@ -4,11 +4,12 @@
   "description": "simple nodejs application that fetches tweets from twitter api and pushes them into aws elasticsearch domain",
   "main": "TweetFetcher.js",
   "dependencies": {
-    "twitter": "*",
+    "aws-es": "^1.5.3",
+    "aws-sdk": "^2.6.9",
+    "request": "*",
     "twit": ">=1.1",
-    "aws-sdk":"*",
-    "request": "*"
-    },
+    "twitter": "*"
+  },
   "scripts": {
     "test": "node TweetFetcher.js"
   },
