@@ -6,9 +6,10 @@
   "dependencies": {
     "aws-es": "^1.5.3",
     "aws-sdk": "^2.6.9",
+    "elasticsearch": "^11.0.1",
+    "q": "^1.4.1",
     "request": "*",
-    "twit": ">=1.1",
-    "twitter": "*"
+    "twit": ">=1.1"
   },
   "scripts": {
     "test": "node TweetFetcher.js"
