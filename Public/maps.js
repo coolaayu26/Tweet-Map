@@ -1,12 +1,12 @@
 var map;
-var trying;
+
 var lat=[];
 var lng = [];
 var locations;
 var position;
 var icon;
 var json_data=[];
-var coords= [40.7713024,-73.9632393];
+
 // Create a new blank array for all the listing markers.
 var markers = [];
 

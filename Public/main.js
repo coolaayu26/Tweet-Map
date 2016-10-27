@@ -6,12 +6,5 @@ app.controller('mainController',mainController )
 
 function mainController($http) {
 
-
-   // $http.get("/api/tweetk/" + "drctv") // req name + query
-     //           .then(function (response) {
-
-//                     deferred.resolve(response);
-       //          });
-
 }
 
