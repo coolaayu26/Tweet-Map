@@ -11,7 +11,7 @@ A simple web application which: -
 •   Node.js 
 •   JavaScript
 •   Google Map API
-•   Twit API
+•   Twitt API
 
 **Link to final version** [http://tweetmapper.us-east-1.elasticbeanstalk.com/](http://tweetmapper.us-east-1.elasticbeanstalk.com/)
 
